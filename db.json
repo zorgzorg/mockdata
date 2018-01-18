@@ -1,6 +1,6 @@
 {
   "courses": [
-    { "id": 1, "title": "Angular 5 - The Complete Guide", "date": "05/12/2017", "author": ["Smith"
+    { "id": 1, "title": "Mock! Angular 5 - The Complete Guide", "date": "05/12/2017", "author": ["Smith"
       ], "duration": 60, "description": "Master Angular (Angular 2+, incl. Angular 5) and build awesome, reactive web apps with the successor of Angular.js", "deleted": false
     },
     { "id": 2, "title": "Angular Essentials (Angular 2+ with TypeScript)", "date": "10/17/2017", "author": ["Williams"
