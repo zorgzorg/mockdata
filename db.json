@@ -1,29 +1,45 @@
 {
-	courses: [
-		{ id: 1, title: "Angular 5 - The Complete Guide", date: "05/12/2017", author: [{ id: 4, name: 'Smith' }], duration: 60, description: "Master Angular (Angular 2+, incl. Angular 5) and build awesome, reactive web apps with the successor of Angular.js", deleted: false },
-		{ id: 2, title: "Angular Essentials (Angular 2+ with TypeScript)", date: "10/17/2017", author: [{ id: 5, name: 'Williams' }], duration: 15, description: "The most efficient way to dive into Angular 2 or Angular 5 if you got limited time or need to refresh the basics!", deleted: false },
-		{ id: 3, title: "Angular Styling & Animations (for Angular 2+)", date: "04/05/2017", author: [{ id: 4, name: 'Smith' }, { id: 3, name: 'Miller' }], duration: 135, description: "For Angular 2/ Angular 5: Learn how to use dynamic Styles and powerful Animations to create beautiful Angular Apps", deleted: false },
-		{ id: 4, title: "Angular (Angular 2+) & NodeJS - The MEAN Stack Guide", date: "03/05/2016", author: [{ id: 4, name: 'Smith' }, { id: 3, name: 'Miller' }], duration: 135, description: "Learn how to connect your Angular 2/ Angular 5 Frontend with a NodeJS Backend by building a real Application", deleted: false },
-		{ id: 5, title: "Angular 2 + Rails 5 Bootcamp", date: "12/05/2016", author: [{ id: 2, name: 'Johnson' }], duration: 95, description: "Learn how to build a real world Angular 2 application that utilizes multiple Ruby on Rails apps for backend data APIs", deleted: false },
-		{ id: 6, title: "Typescript Masterclass & FREE E-Book", date: "04/05/2016", author: [{ id: 4, name: 'Smith' }, { id: 3, name: 'Miller' }], duration: 185, description: "Learn Typescript: Build a Node REST API in Typescript, query it with Angular 5 (formerly Angular 2)", deleted: false },
-		{ id: 7, title: "Angular 5 and Firebase - Build a Web App with Typescript", date: "01/25/2016", author: [{ id: 5, name: 'Williams' }, { id: 4, name: 'Smith' }], duration: 135, description: "Updated to Angular 5 (formerly Angular 2) - Learn how to build a Web Application using Angular, Firebase and Typescript", deleted: false },
-		{ id: 8, title: "Angular 5 Router Jumpstart", date: "04/05/2017", author: [{ id: 5, name: 'Williams' }, { id: 3, name: 'Miller' }], duration: 235, description: "Angular Router Course with E-Book Included (Angular 2 / Angular 5)", deleted: false },
-		{ id: 9, title: "The Complete Angular 5 Essentials Course For Beginners", date: "03/14/2016", author: [{ id: 4, name: 'Smith' }, { id: 2, name: 'Johnson' }], duration: 45, description: "In our complete course students will learn all of the Angular 5 essentials from a complete beginner to advanced user!", deleted: false },
-		{ id: 10, title: "Angular 5 Forms Jumpstart", date: "04/05/2017", author: [{ id: 4, name: 'Smith' }, { id: 5, name: 'Williams' }], duration: 135, description: "Angular 5 Forms Course with E-Book Included (Angular 2 and Angular 5)", deleted: false }
-	],
-
-	users: [
-		{ username: 'q', password: 'q' },
-		{ username: 'w', password: 'w' },
-		{ username: 'Lapshin', password: '34' },
-		{ username: 'littlekitty', password: 'sweet' }
-	],
-
-	authors: [
-		{ id: 1, name: 'Brown' },
-		{ id: 2, name: 'Johnson' },
-		{ id: 3, name: 'Miller' },
-		{ id: 4, name: 'Smith' },
-		{ id: 5, name: 'Williams' }
-	]
+  "courses": [
+    { "id": 1, "title": "Angular 5 - The Complete Guide", "date": "05/12/2017", "author": ["Smith"
+      ], "duration": 60, "description": "Master Angular (Angular 2+, incl. Angular 5) and build awesome, reactive web apps with the successor of Angular.js", "deleted": false
+    },
+    { "id": 2, "title": "Angular Essentials (Angular 2+ with TypeScript)", "date": "10/17/2017", "author": ["Williams"
+      ], "duration": 15, "description": "The most efficient way to dive into Angular 2 or Angular 5 if you got limited time or need to refresh the basics!", "deleted": false
+    },
+    { "id": 3, "title": "Angular Styling & Animations (for Angular 2+)", "date": "04/05/2017", "author": ["Smith", "Miller"
+      ], "duration": 135, "description": "For Angular 2/ Angular 5: Learn how to use dynamic Styles and powerful Animations to create beautiful Angular Apps", "deleted": false
+    },
+    { "id": 4, "title": "Angular (Angular 2+) & NodeJS - The MEAN Stack Guide", "date": "03/05/2016", "author": ["Smith", "Miller"
+      ], "duration": 135, "description": "Learn how to connect your Angular 2/ Angular 5 Frontend with a NodeJS Backend by building a real Application", "deleted": false
+    },
+    { "id": 5, "title": "Angular 2 + Rails 5 Bootcamp", "date": "12/05/2016", "author": ["Johnson"
+      ], "duration": 95, "description": "Learn how to build a real world Angular 2 application that utilizes multiple Ruby on Rails apps for backend data APIs", "deleted": false
+    },
+    { "id": 6, "title": "Typescript Masterclass & FREE E-Book", "date": "04/05/2016", "author": ["Smith", "Miller"
+      ], "duration": 185, "description": "Learn Typescript: Build a Node REST API in Typescript, query it with Angular 5 (formerly Angular 2)", "deleted": false
+    },
+    { "id": 7, "title": "Angular 5 and Firebase - Build a Web App with Typescript", "date": "01/25/2016", "author": ["Williams", "Smith"
+      ], "duration": 135, "description": "Updated to Angular 5 (formerly Angular 2) - Learn how to build a Web Application using Angular, Firebase and Typescript", "deleted": false
+    },
+    { "id": 8, "title": "Angular 5 Router Jumpstart", "date": "04/05/2017", "author": ["Williams", "Miller"
+      ], "duration": 235, "description": "Angular Router Course with E-Book Included (Angular 2 / Angular 5)", "deleted": false
+    },
+    { "id": 9, "title": "The Complete Angular 5 Essentials Course For Beginners", "date": "03/14/2016", "author": ["Smith", "Johnson"
+      ], "duration": 45, "description": "In our complete course students will learn all of the Angular 5 essentials from a complete beginner to advanced user!", "deleted": false
+    },
+    { "id": 10, "title": "Angular 5 Forms Jumpstart", "date": "04/05/2017", "author": ["Smith", "Williams"
+      ], "duration": 135, "description": "Angular 5 Forms Course with E-Book Included (Angular 2 and Angular 5)", "deleted": false
+    }
+  ],
+  "users": [
+    { "username": "q", "password": "q"
+    },
+    { "username": "w", "password": "w"
+    },
+    { "username": "Lapshin", "password": "34"
+    },
+    { "username": "littlekitty", "password": "sweet"
+    }
+  ],
+  "authors": ["Brown", "Johnson", "Miller", "Smith", "Williams"]
 }
